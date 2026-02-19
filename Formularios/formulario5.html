@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario 5</title>
+    <script>
+        function ProcesarDatos() {
+            let objx = document.getElementById("RangoValor").value;
+            document.getElementById("resultado").innerHTML = objx;
+        }
+    </script>
+</head>
+
+<body>
+    <h3>Entrada de datos por 'Slide'</h3>
+    <input type="range" id="RangoValor" value="50" onchange="ProcesarDatos()">
+    <p id="resultado"></p>
+
+</body>
+
+</html>
